@@ -36,7 +36,7 @@
     "start": "node dist/index.js",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
     "prepare": "husky install",
-    "commit": "commit",
+    "commit": "cz",
     "test": "echo hello world!"
   },
   "config": {

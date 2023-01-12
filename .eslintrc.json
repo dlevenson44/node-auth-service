@@ -44,7 +44,7 @@
         "@typescript-eslint/no-var-requires": 0,
         "@typescript-eslint/indent": "off",
         "import/order": [
-          "error",
+          "warning",
           {
             "groups": [
               "builtin",

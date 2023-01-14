@@ -1,5 +1,4 @@
-import request from "supertest"
-// import { Express } from 'express-serve-static-core'
+import request from 'supertest'
 
 import { server } from '../../server'
 

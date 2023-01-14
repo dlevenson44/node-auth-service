@@ -44,7 +44,6 @@
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
     "prepare": "husky install",
     "commit": "cz",
-    "test": "echo hello world!",
     "test:unit": "ENV_FILE=./.env.test jest"
   },
   "config": {

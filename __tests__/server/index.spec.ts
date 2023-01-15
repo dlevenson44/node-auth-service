@@ -7,6 +7,3 @@ describe('GET /', () => {
     await request(server).get('/').expect(200).expect({ data: 'hello world!' })
   })
 })
-
-
-

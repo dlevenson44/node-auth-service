@@ -51,5 +51,8 @@
     "commitizen": {
       "path": "./commitizen.config.js"
     }
+  },
+  "engines": {
+    "node": "18.8.0"
   }
 }

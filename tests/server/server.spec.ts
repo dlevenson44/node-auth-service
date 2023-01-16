@@ -1,6 +1,6 @@
 import request from 'supertest'
 
-import { server } from '~/server/index'
+import { server } from '~/server/server'
 
 describe('GET /', () => {
   it('should return 200 and success message', async () => {

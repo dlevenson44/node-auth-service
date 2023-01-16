@@ -37,6 +37,10 @@
             "error",
             "never"
         ],
+        "eol-last": "error",
+        "no-trailing-spaces": "error",
+        "no-multiple-empty-lines": "error",
+        "object-curly-spacing": ["error", "always"],
         "import/no-unresolved": [0, { "commonjs": true }],
         "import/order": [
             "error",
@@ -48,6 +52,7 @@
                     "caseInsensitive": true
                 }
             }
-        ]
+        ],
+        "@typescript-eslint/no-explicit-any": "off"
     }
 }

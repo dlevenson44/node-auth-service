@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowJs": true,
     "alwaysStrict": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
@@ -15,7 +15,7 @@
     "outDir": "./dist",
     "paths": {
       "~/*": [
-        "*"
+        "./*"
       ]
     },
     "resolveJsonModule": true,
@@ -23,6 +23,6 @@
     "skipLibCheck": true,
     "strict": true
   },
-  "exclude": ["node_modules", "tests"],
+  "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.spec.ts"]
 }

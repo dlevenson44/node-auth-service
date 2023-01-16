@@ -1,29 +1,24 @@
 {
     "env": {
         "browser": true,
-        "es2021": true,
-        "jest": true,
-        "node": true
+        "commonjs": true,
+        "es2021": true
     },
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:import/recommended",
-        "plugin:import/typescript",
-        "plugin:prettier/recommended"
+        "plugin:import/typescript"
     ],
-    "ignorePatterns": ["node_modules"],
     "overrides": [
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
+        "ecmaVersion": "latest"
     },
     "plugins": [
-        "@typescript-eslint",
-        "import"
+        "@typescript-eslint"
     ],
     "rules": {
         "indent": [
@@ -42,9 +37,7 @@
             "error",
             "never"
         ],
-        "eol-last": "error",
-        "no-multiple-empty-lines": "error",
-        "no-trailing-spaces": "error",
+        "import/no-unresolved": [0, { "commonjs": true }],
         "import/order": [
             "error",
             {
@@ -53,12 +46,8 @@
                 "alphabetize": {
                     "order": "asc",
                     "caseInsensitive": true
-                },
-                "node": {
-                    "extensions": [".ts"]
                 }
-            },
-            
+            }
         ]
     }
 }
